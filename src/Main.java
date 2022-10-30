@@ -67,10 +67,10 @@ public class Main {
         System.out.println();
 
 
-        System.out.println("Задагие 3");
+        System.out.println("Задагие 4");
         for (int i = 0; i < arr1.length; i++) {
             if (arr1[i] % 2 != 0) {
-                arr1[i] += 1;
+                arr1[i] ++;
             }
         }
         System.out.println(Arrays.toString(arr1));
